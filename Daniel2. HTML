@@ -1,0 +1,139 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Daniel's Website</h1>
+            <p>This is the home page.</p>
+            <!-- Add product information here -->
+            <h2>Our Products</h2>
+            <ul>
+                <li>websites</li>
+                <li>softwares</li>
+                <li>Devices</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+            <p>This is the about page.</p>
+            <!-- Add website information here -->
+            <h2>Our Story</h2>
+            <p>Founded in 2024</p>
+            <h2>What We Offer</h2>
+            <ul>
+                <li>Tech services</li>
+                <li>IT Inclined</li>
+                <li>Softwares</li>
+                <li>Gaming Experiences>
+            </ul>
+        </section>
+        <section id="menu">
+            <h1>Menu</h1>
+            <p>This is the menu page.</p>
+            <!-- Add website features here -->
+            <h2>Features</h2>
+            <ul>
+                <li>Log in</li>
+                <li>Sign up</li>
+                <li>referral sign up</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>This is the contact page.</p>
+            <!-- Add contact information here -->
+            <h2>Get in Touch</h2>
+            <p>Email: [avenopeter350@gmail.com](mailto:avenopeter350@gmail.com)</p>
+            <p>Phone: 07076591504</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Daniel's Website</p>
+    </footer>
+</body>
+</html>
+```
+
+```
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f0f0f0;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #444;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+```
